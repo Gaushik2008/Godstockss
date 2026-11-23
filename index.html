@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>GodStocks</title>
+<title>Godstockss</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&family=Instrument+Sans:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
@@ -417,9 +417,9 @@ button.cell:hover,a.cell:hover{background:rgba(237,234,226,.03)}
 
 <header class="top" id="top">
   <div class="wrap">
-    <a class="logo" href="#home" aria-label="GodStocks home">
+    <a class="logo" href="#home" aria-label="Godstockss home">
       <svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="9" cy="9" r="4.5" fill="var(--brand)"/><circle cx="23" cy="9" r="4.5" fill="var(--brand)"/><circle cx="9" cy="23" r="4.5" fill="var(--brand)"/><circle cx="23" cy="23" r="4.5" fill="var(--brand)" opacity=".45"/></svg>
-      GodStocks
+      Godstockss
     </a>
     <nav class="navpill" aria-label="Main">
       <a href="#home" data-nav="home">Home</a>
@@ -658,7 +658,7 @@ button.cell:hover,a.cell:hover{background:rgba(237,234,226,.03)}
 
 <footer>
   <div class="wrap">
-    <p>GodStocks is for learning. Prices on this page are sample data, not a quote. Nothing here is investment advice or an offer to buy or sell securities. Check live prices with your broker before acting.</p>
+    <p>Godstockss is for learning. Prices on this page are sample data, not a quote. Nothing here is investment advice or an offer to buy or sell securities. Check live prices with your broker before acting.</p>
   </div>
 </footer>
 
@@ -692,7 +692,7 @@ button.cell:hover,a.cell:hover{background:rgba(237,234,226,.03)}
 <div class="scrim" id="mAuth" hidden>
   <div class="modal" role="dialog" aria-modal="true" aria-labelledby="authT">
     <button class="x" type="button" data-close aria-label="Close">×</button>
-    <h2 id="authT" style="font-size:1.6rem">Sign in to GodStocks</h2>
+    <h2 id="authT" style="font-size:1.6rem">Sign in to Godstockss</h2>
     <p class="small muted" style="margin-top:6px">Demo only. Nothing you type leaves this page.</p>
     <div class="tabs" role="tablist" aria-label="Sign-in method">
       <button type="button" role="tab" id="tabIn" aria-selected="true" aria-controls="pIn">Email</button>
@@ -968,7 +968,7 @@ function authTab(which){
   const map={in:['#tabIn','#pIn'],up:['#tabUp','#pUp'],ph:['#tabPh','#pPh']};
   Object.entries(map).forEach(([k,[t,p]])=>{$(t).setAttribute('aria-selected',k===which);$(p).hidden=k!==which});
   $('#pFg').hidden=true; $('.tabs').hidden=false; $('#gBtn').hidden=false;
-  $('#authT').textContent=which==='up'?'Create your GodStocks account':'Sign in to GodStocks';
+  $('#authT').textContent=which==='up'?'Create your Godstockss account':'Sign in to Godstockss';
 }
 function openAuth(w){authTab(w);openModal('mAuth')}
 $('#tabIn').onclick=()=>authTab('in');$('#tabUp').onclick=()=>authTab('up');$('#tabPh').onclick=()=>authTab('ph');
@@ -1298,7 +1298,7 @@ function route(){
 function show(v){
   view=v;$$('[data-view]').forEach(s=>s.hidden=s.dataset.view!==v);
   $$('[data-nav]').forEach(a=>{if(a.dataset.nav===v)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current')});
-  document.title=({home:'GodStocks',dashboard:'Dashboard · GodStocks',compete:'Learn and compete · GodStocks'})[v];
+  document.title=({home:'Godstockss',dashboard:'Dashboard · Godstockss',compete:'Learn and compete · Godstockss'})[v];
   if(v==='home')setTimeout(buildTm,0);
   if(v==='dashboard'){buildRows();renderChart()}
   if(v==='compete'){paintCompeteLive();paintTradeState()}
