@@ -1,4 +1,4 @@
-# GodStocks — Website Upgrade Challenge
+# GodStocks — Website Upgrade Challenge(2026)
 
 > **An interactive front-end concept for a clearer, more approachable stock-market learning experience.**
 
