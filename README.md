@@ -60,7 +60,7 @@ The challenge brief encourages ideas around:
 GodStocks turns those themes into a navigable prototype rather than a static list of suggestions. The implementation demonstrates possible user journeys across market discovery, stock research, learning, and simulated trading.
 
 - **Challenge:** [Godstockss Website Upgrade Challenge on Unstop](https://unstop.com/quiz/godstockss-website-upgrade-challenge-godstockss-1784540)
-- **Repository:** [Gaushik2008/Godstocks](https://github.com/Gaushik2008/Godstocks)
+- **Repository:** [Gaushik2008/Godstocks](https://github.com/Gaushik2008/Godstockss)
 
 ## Design Goals
 
